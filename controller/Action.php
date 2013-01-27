@@ -28,5 +28,4 @@ abstract class Action {
         }
         include('view/' . $this->getClass() . ".php");
     }
-
 }

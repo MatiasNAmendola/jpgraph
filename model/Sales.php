@@ -6,9 +6,9 @@ class Sales {
 
     public function getSalesData() {
         
-        $json = file_get_contents($this->urlSalesData);
-        $salesData = json_decode($json, TRUE);
+        $jsonSalesData = file_get_contents($this->urlSalesData);
+        $arraySalesData = json_decode($jsonSalesData, TRUE);
         
-        return $salesData;
+        return $arraySalesData;
     }
 }
