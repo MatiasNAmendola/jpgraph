@@ -41,7 +41,7 @@ class SalesGraph extends Action {
         $height = 400;
         $graph = new Graph($width, $height);
         $graph->SetScale('intint');
-        $graph->title->Set('Redsnapper');
+        $graph->title->Set('JpGraph');
         $graph->subtitle->Set('Sales');
         $graph->xaxis->SetTitle('Months', "center");
         $graph->yaxis->title->Set('Sales');
